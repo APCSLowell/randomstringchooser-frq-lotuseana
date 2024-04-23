@@ -5,7 +5,7 @@ public class RandomStringChooser
   public RandomStringChooser(String[]b){
     a = new ArrayList<String>();
     for (int i =0; i<b.length; i++){
-      a.set(i,b[i]);
+      a.add(b[i]);
     }
   }
   public String getNext(){
